@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FB1B1B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+  background-color: #8f0217;
+  border: 5px solid #012f29;
+  color: #ffcb05;
+  padding: 10px;
+  border-radius: 25px;
+  letter-spacing: 5px;
+}
+
+/* Styles for Pokemon cards created in the JS file */
+
+#container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pokemon {
+  background-color: #8f0217;
+  width: 175px;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.img-container {
+  background-color: #012f29;
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  color: #ffcb05;
+  margin-bottom: 0;
+}
